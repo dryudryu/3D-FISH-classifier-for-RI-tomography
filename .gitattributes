@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+pytorch/ filter=lfs diff=lfs merge=lfs -text
+pytorch4 filter=lfs diff=lfs merge=lfs -text
